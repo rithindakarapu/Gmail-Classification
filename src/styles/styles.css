@@ -1,0 +1,97 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .header-left {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .header-right button {
+    margin-top: 8px;
+  }
+  
+  .email-list {
+    overflow: auto;
+  }
+  
+  .email-item {
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .email-item strong {
+    display: block;
+  }
+  
+  .email-classification {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    padding: 4px 8px;
+    background-color: #f0f0f0;
+    border-radius: 12px;
+    font-size: 12px;
+  }
+  
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .login-button {
+    padding: 8px 16px;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 16px;
+  }
+  
+  .api-key-container {
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .api-key-container label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .api-key-container input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 100%;
+  }
+  
+  .error-message {
+    color: #ff0000;
+    margin-bottom: 16px;
+  }
+  
